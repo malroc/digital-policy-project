@@ -197,7 +197,7 @@ export default function Index() {
               <CardHeader>
                 <div className="flex items-center justify-between">
                   <div>
-                    <CardTitle className="text-xl">gapi.ru</CardTitle>
+                    <CardTitle className="text-xl">Gapi</CardTitle>
                     <CardDescription>Платформа монетизации контента</CardDescription>
                   </div>
                   <Badge className="bg-green-100 text-green-700">Собственная разработка</Badge>
