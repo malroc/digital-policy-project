@@ -204,9 +204,7 @@ export default function Index() {
                 </div>
               </CardHeader>
               <CardContent>
-                <p className="text-muted-foreground mb-4">
-                  Комплексная платформа для создателей контента с системой монетизации, аналитикой и инструментами управления.
-                </p>
+                <p className="text-muted-foreground mb-4">Комплексная платформа для создателей контента и их подписчиков с системой монетизации, аналитикой и инструментами управления.</p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   <Badge variant="outline">Ruby on Rails</Badge>
                   <Badge variant="outline">React</Badge>
