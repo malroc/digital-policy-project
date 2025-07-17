@@ -65,7 +65,10 @@ export default function Index() {
               <span className="font-semibold text-slate-100"> Ruby on Rails + PostgreSQL + React</span>
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground">Заказать проект</Button>
+              <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground" onClick={() => document.getElementById('contacts')?.scrollIntoView({ behavior: 'smooth' })}>
+                <Icon name="Mail" className="h-5 w-5 mr-2" />
+                Заказать проект
+              </Button>
               <Button size="lg" variant="outline" className="border-primary text-primary hover:bg-primary/10">
                 <Icon name="Eye" className="h-5 w-5 mr-2" />
                 Портфолио
