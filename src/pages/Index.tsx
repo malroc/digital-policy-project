@@ -270,7 +270,7 @@ export default function Index() {
                     <a href="mailto:malroc@mail.ru" className="text-muted-foreground hover:text-primary transition-colors">malroc@mail.ru</a>
                   </div>
                 </div>
-                <div className="flex items-center space-x-4">
+                <div className="flex items-center space-x-4 mx-[60px]">
                   <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
                     <Icon name="Phone" className="h-6 w-6 text-primary" />
                   </div>
