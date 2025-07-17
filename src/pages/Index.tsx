@@ -223,7 +223,7 @@ export default function Index() {
               <CardHeader>
                 <div className="flex items-center justify-between">
                   <div>
-                    <CardTitle className="text-xl">earth2.io</CardTitle>
+                    <CardTitle className="text-xl">Earth 2</CardTitle>
                     <CardDescription>Метавселенная с привязкой к картам</CardDescription>
                   </div>
                   <Badge className="bg-blue-100 text-blue-700">Разработка на заказ</Badge>
