@@ -273,7 +273,7 @@ export default function Index() {
                   </div>
                   <div>
                     <h4 className="font-medium">Email</h4>
-                    <p className="text-muted-foreground">malroc@mail.ru</p>
+                    <a href="mailto:malroc@mail.ru" className="text-muted-foreground hover:text-primary transition-colors">malroc@mail.ru</a>
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">
