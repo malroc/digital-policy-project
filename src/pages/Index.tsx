@@ -69,7 +69,7 @@ export default function Index() {
                 <Icon name="Rocket" className="h-5 w-5 mr-2" />
                 Заказать проект
               </Button>
-              <Button size="lg" variant="outline" className="border-primary text-primary hover:bg-primary/10">
+              <Button size="lg" variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground" onClick={() => document.getElementById('portfolio')?.scrollIntoView({ behavior: 'smooth' })}>
                 <Icon name="Eye" className="h-5 w-5 mr-2" />
                 Портфолио
               </Button>
