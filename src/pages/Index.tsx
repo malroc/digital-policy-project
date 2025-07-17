@@ -263,30 +263,9 @@ export default function Index() {
               Готовы обсудить ваш проект? Свяжитесь с нами удобным способом
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+          <div className="max-w-2xl mx-auto">
             <div>
-              <h3 className="text-xl font-semibold mb-6">Напишите нам</h3>
-              <div className="space-y-4">
-                <div>
-                  <label className="block text-sm font-medium mb-2">Имя</label>
-                  <Input placeholder="Ваше имя" />
-                </div>
-                <div>
-                  <label className="block text-sm font-medium mb-2">Email</label>
-                  <Input type="email" placeholder="your@email.com" />
-                </div>
-                <div>
-                  <label className="block text-sm font-medium mb-2">Сообщение</label>
-                  <Textarea placeholder="Расскажите о вашем проекте..." rows={4} />
-                </div>
-                <Button className="w-full">
-                  <Icon name="Send" className="h-4 w-4 mr-2" />
-                  Отправить сообщение
-                </Button>
-              </div>
-            </div>
-            <div>
-              <h3 className="text-xl font-semibold mb-6">Связаться напрямую</h3>
+              <h3 className="text-xl font-semibold mb-6 text-center">Связаться напрямую</h3>
               <div className="space-y-6">
                 <div className="flex items-center space-x-4">
                   <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
