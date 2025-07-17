@@ -57,12 +57,12 @@ export default function Index() {
               <Icon name="Zap" className="h-3 w-3 mr-1" />
               IT-разработка нового поколения
             </Badge>
-            <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-foreground to-foreground/70 bg-clip-text text-transparent">
+            <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-foreground to-foreground/70 bg-clip-text text-slate-300">
               АО Цифровая Полития
             </h1>
-            <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto">
+            <p className="text-xl md:text-2xl mb-8 max-w-2xl mx-auto text-slate-400">
               Создаем веб-приложения со сложным функционалом. Собственные продукты и аутсорсинг на стеке 
-              <span className="text-primary font-semibold"> Ruby on Rails + PostgreSQL + React</span>
+              <span className="font-semibold text-slate-100"> Ruby on Rails + PostgreSQL + React</span>
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground">
