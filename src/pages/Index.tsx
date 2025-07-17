@@ -305,7 +305,11 @@ export default function Index() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center justify-between">
             <div className="flex items-center space-x-2 mb-4 md:mb-0">
-              <Icon name="Code" className="h-6 w-6 text-primary" />
+              <svg className="h-6 w-6 text-primary" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M16 2L28 8v16L16 30 4 24V8L16 2z" fill="currentColor" fillOpacity="0.1" stroke="currentColor" strokeWidth="2"/>
+                <path d="M16 2v28M4 8l24 16M28 8L4 24" stroke="currentColor" strokeWidth="1" strokeOpacity="0.3"/>
+                <circle cx="16" cy="16" r="3" fill="currentColor"/>
+              </svg>
               <span className="font-semibold">АО Цифровая Полития</span>
             </div>
             <div className="text-sm text-muted-foreground">© 2025 Цифровая Полития. Все права защищены.</div>
