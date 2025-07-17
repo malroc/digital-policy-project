@@ -279,15 +279,7 @@ export default function Index() {
                     <a href="tel:+79302484379" className="text-muted-foreground hover:text-primary transition-colors">+7 930 248 43 79</a>
                   </div>
                 </div>
-                <div className="flex items-center space-x-4">
-                  <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
-                    <Icon name="Code" className="h-6 w-6 text-primary" />
-                  </div>
-                  <div>
-                    <h4 className="font-medium">Специализация</h4>
-                    <p className="text-muted-foreground">Веб-приложения со сложным функционалом</p>
-                  </div>
-                </div>
+
                 <div className="flex items-center space-x-4">
                   <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
                     <Icon name="Zap" className="h-6 w-6 text-primary" />
