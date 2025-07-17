@@ -173,9 +173,7 @@ export default function Index() {
 
               </CardHeader>
               <CardContent>
-                <p className="text-muted-foreground mb-4">
-                  Дорабатываем действующие приложения на стеке заказчика. Оптимизация, новый функционал, интеграции.
-                </p>
+                <p className="text-muted-foreground mb-4">Дорабатываем действующие приложения на стеке заказчика. Исправление ошибок, оптимизация, новый функционал, интеграции.</p>
                 <div className="flex flex-wrap gap-2">
                   <Badge variant="secondary">Оптимизация</Badge>
                   <Badge variant="secondary">Интеграции</Badge>
