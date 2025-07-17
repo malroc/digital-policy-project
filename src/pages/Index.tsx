@@ -43,9 +43,9 @@ export default function Index() {
       {/* Hero Section */}
       <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden">
         <div 
-          className="absolute inset-0 bg-gradient-to-br from-slate-900/80 to-slate-800/60"
+          className="absolute inset-0 bg-gradient-to-br from-slate-900/85 to-slate-800/70"
           style={{
-            backgroundImage: `url('/img/696b21d4-58aa-4db5-8a2d-ad01a0e86f58.jpg')`,
+            backgroundImage: `url('/img/60691ed3-a1a5-42d9-9a51-5925c4b27ff8.jpg')`,
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             backgroundBlendMode: 'multiply'
