@@ -278,6 +278,15 @@ export default function Index() {
                 </div>
                 <div className="flex items-center space-x-4">
                   <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
+                    <Icon name="Phone" className="h-6 w-6 text-primary" />
+                  </div>
+                  <div>
+                    <h4 className="font-medium">Телефон</h4>
+                    <p className="text-muted-foreground">+7 930 248 43 79</p>
+                  </div>
+                </div>
+                <div className="flex items-center space-x-4">
+                  <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
                     <Icon name="Code" className="h-6 w-6 text-primary" />
                   </div>
                   <div>
