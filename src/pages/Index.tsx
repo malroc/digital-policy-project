@@ -148,7 +148,7 @@ export default function Index() {
                   <Icon name="Lightbulb" className="h-6 w-6 text-white" />
                 </div>
                 <CardTitle className="text-xl">Разработка под ключ</CardTitle>
-                <CardDescription>Разработка с нуля</CardDescription>
+
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground mb-4">
