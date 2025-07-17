@@ -260,7 +260,7 @@ export default function Index() {
           <div className="max-w-2xl mx-auto">
             <div>
               <h3 className="text-xl font-semibold mb-6 text-center">Связаться напрямую</h3>
-              <div className="space-y-6">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="flex items-center space-x-4">
                   <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
                     <Icon name="Mail" className="h-6 w-6 text-primary" />
@@ -279,8 +279,6 @@ export default function Index() {
                     <a href="tel:+79302484379" className="text-muted-foreground hover:text-primary transition-colors">+7 930 248 43 79</a>
                   </div>
                 </div>
-
-
               </div>
             </div>
           </div>
