@@ -12,7 +12,7 @@ export default function Index() {
       <header className="sticky top-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
         <div className="container mx-auto px-4 py-4">
           <nav className="flex items-center justify-between">
-            <div className="flex items-center space-x-2">
+            <div className="flex items-center space-x-2 cursor-pointer" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
               <svg className="h-8 w-8 text-primary" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M16 2L28 8v16L16 30 4 24V8L16 2z" fill="currentColor" fillOpacity="0.1" stroke="currentColor" strokeWidth="2"/>
                 <path d="M16 2v28M4 8l24 16M28 8L4 24" stroke="currentColor" strokeWidth="1" strokeOpacity="0.3"/>
