@@ -13,7 +13,7 @@ export default function Index() {
         <div className="container mx-auto px-4 py-4">
           <nav className="flex items-center justify-between">
             <div className="flex items-center space-x-2">
-              <img src="/img/047364b4-fad9-4135-b110-659d351d53fb.jpg" alt="Цифровая Полития" className="h-8 w-8 rounded-sm" />
+              <Icon name="Code" className="h-8 w-8 text-primary" />
               <span className="text-xl font-bold bg-gradient-to-r from-primary to-blue-600 bg-clip-text text-transparent">
                 Цифровая Полития
               </span>
