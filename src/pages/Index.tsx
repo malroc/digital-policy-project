@@ -319,7 +319,7 @@ export default function Index() {
                 <path d="M16 2v28M4 8l24 16M28 8L4 24" stroke="currentColor" strokeWidth="1" strokeOpacity="0.3"/>
                 <circle cx="16" cy="16" r="3" fill="currentColor"/>
               </svg>
-              <span className="font-semibold">Цифровая Полития</span>
+              <span className="font-semibold text-blue-600">Цифровая Полития</span>
             </div>
             <div className="text-sm text-muted-foreground text-right">
               <p>© 2025 АО "Цифровая Полития". Все права защищены.</p>
