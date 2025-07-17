@@ -155,9 +155,7 @@ export default function Index() {
 
               </CardHeader>
               <CardContent>
-                <p className="text-muted-foreground mb-4">
-                  Создаем уникальные веб-приложения под ваши бизнес-задачи. Полный цикл разработки от идеи до запуска.
-                </p>
+                <p className="text-muted-foreground mb-4">Создаем уникальные веб-приложения под ваши бизнес-задачи на стэке Ruby on Rails + PostgreSQL + React. Полный цикл разработки от идеи до запуска.</p>
                 <div className="flex flex-wrap gap-2">
                   <Badge variant="secondary">MVP</Badge>
                   <Badge variant="secondary">Масштабирование</Badge>
