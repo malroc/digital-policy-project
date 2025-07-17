@@ -89,7 +89,7 @@ export default function Index() {
             <Card className="group hover:shadow-lg transition-all duration-300 border-2 hover:border-primary/50">
               <CardHeader className="text-center">
                 <div className="w-16 h-16 mx-auto mb-4 bg-red-100 rounded-full flex items-center justify-center">
-                  <Icon name="Database" className="h-8 w-8 text-red-600" />
+                  <Icon name="Gem" className="h-8 w-8 text-red-600" />
                 </div>
                 <CardTitle className="text-xl">Ruby on Rails</CardTitle>
                 <CardDescription>Серверная разработка</CardDescription>
