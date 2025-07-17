@@ -147,7 +147,7 @@ export default function Index() {
                 <div className="w-12 h-12 mb-4 bg-gradient-to-r from-primary to-blue-600 rounded-lg flex items-center justify-center">
                   <Icon name="Lightbulb" className="h-6 w-6 text-white" />
                 </div>
-                <CardTitle className="text-xl">Собственные продукты</CardTitle>
+                <CardTitle className="text-xl">Разработка под ключ</CardTitle>
                 <CardDescription>Разработка с нуля</CardDescription>
               </CardHeader>
               <CardContent>
