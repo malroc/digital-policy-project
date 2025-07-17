@@ -282,7 +282,7 @@ export default function Index() {
                   </div>
                   <div>
                     <h4 className="font-medium">Телефон</h4>
-                    <p className="text-muted-foreground">+7 930 248 43 79</p>
+                    <a href="tel:+79302484379" className="text-muted-foreground hover:text-primary transition-colors">+7 930 248 43 79</a>
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">
