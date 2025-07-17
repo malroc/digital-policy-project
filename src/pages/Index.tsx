@@ -280,15 +280,7 @@ export default function Index() {
                   </div>
                 </div>
 
-                <div className="flex items-center space-x-4">
-                  <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
-                    <Icon name="Zap" className="h-6 w-6 text-primary" />
-                  </div>
-                  <div>
-                    <h4 className="font-medium">Технологии</h4>
-                    <p className="text-muted-foreground">Ruby on Rails + PostgreSQL + React</p>
-                  </div>
-                </div>
+
               </div>
             </div>
           </div>
