@@ -306,9 +306,7 @@ export default function Index() {
               <Icon name="Code" className="h-6 w-6 text-primary" />
               <span className="font-semibold">АО Цифровая Полития</span>
             </div>
-            <div className="text-sm text-muted-foreground">
-              © 2024 Цифровая Полития. Все права защищены.
-            </div>
+            <div className="text-sm text-muted-foreground">© 2025 Цифровая Полития. Все права защищены.</div>
           </div>
         </div>
       </footer>
