@@ -13,12 +13,7 @@ export default function Index() {
         <div className="container mx-auto px-4 py-4">
           <nav className="flex items-center justify-between">
             <div className="flex items-center space-x-2">
-              <svg className="h-8 w-8 text-primary" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M4 8h24v16H4z" fill="currentColor" fillOpacity="0.1" stroke="currentColor" strokeWidth="2" rx="2"/>
-                <path d="M8 12h16M8 16h12M8 20h8" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
-                <circle cx="26" cy="6" r="3" fill="currentColor"/>
-                <circle cx="26" cy="6" r="1.5" fill="white"/>
-              </svg>
+              <Icon name="Code" className="h-8 w-8 text-primary" />
               <span className="text-xl font-bold bg-gradient-to-r from-primary to-blue-600 bg-clip-text text-transparent">
                 Цифровая Полития
               </span>
