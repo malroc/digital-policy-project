@@ -43,12 +43,12 @@ export default function Index() {
       {/* Hero Section */}
       <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden">
         <div 
-          className="absolute inset-0 bg-gradient-to-br from-blue-600/10 to-purple-600/5"
+          className="absolute inset-0 bg-gradient-to-br from-slate-900/80 to-slate-800/60"
           style={{
-            backgroundImage: `url('/img/ede8ad30-cd23-4b36-bc84-47d5f279bede.jpg')`,
+            backgroundImage: `url('/img/696b21d4-58aa-4db5-8a2d-ad01a0e86f58.jpg')`,
             backgroundSize: 'cover',
             backgroundPosition: 'center',
-            backgroundBlendMode: 'overlay'
+            backgroundBlendMode: 'multiply'
           }}
         />
         <div className="container mx-auto px-4 relative z-10">
