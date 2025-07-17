@@ -68,7 +68,11 @@ export default function Index() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground" onClick={() => document.getElementById('contacts')?.scrollIntoView({ behavior: 'smooth' })}>
-                <Icon name="Rocket" className="h-5 w-5 mr-2" />
+                <svg className="h-5 w-5 mr-2" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12 2L4 7V17L12 22L20 17V7L12 2Z" fill="#3B82F6" stroke="#1E40AF" strokeWidth="1.5"/>
+                  <path d="M12 8L16 12L12 16L8 12L12 8Z" fill="#F59E0B"/>
+                  <path d="M12 2V8M8 12H16M12 16V22" stroke="#EF4444" strokeWidth="1" opacity="0.8"/>
+                </svg>
                 Заказать проект
               </Button>
               <Button size="lg" variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground" onClick={() => document.getElementById('portfolio')?.scrollIntoView({ behavior: 'smooth' })}>
