@@ -312,7 +312,7 @@ export default function Index() {
       {/* Footer */}
       <footer className="bg-muted/50 py-12 border-t">
         <div className="container mx-auto px-4">
-          <div className="flex flex-col md:flex-row items-center justify-between mb-8">
+          <div className="flex flex-col md:flex-row items-center justify-between">
             <div className="flex items-center space-x-2 mb-4 md:mb-0">
               <svg className="h-6 w-6 text-primary" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M16 2L28 8v16L16 30 4 24V8L16 2z" fill="currentColor" fillOpacity="0.1" stroke="currentColor" strokeWidth="2"/>
@@ -322,19 +322,6 @@ export default function Index() {
               <span className="font-semibold">АО Цифровая Полития</span>
             </div>
             <div className="text-sm text-muted-foreground">© 2025 Цифровая Полития. Все права защищены.</div>
-          </div>
-          
-          <div className="border-t pt-8">
-            <div className="text-center md:text-left">
-              <h3 className="text-lg font-semibold mb-4">Юридическая информация</h3>
-              <div className="space-y-2 text-sm text-muted-foreground">
-                <p><strong>Полное наименование:</strong> Акционерное общество "Цифровая Полития"</p>
-                <p><strong>ИНН:</strong> 7707083893</p>
-                <p><strong>ОГРН:</strong> 1027700132195</p>
-                <p><strong>Юридический адрес:</strong> 109316, г. Москва, Волгоградский проспект, дом 42, корпус 5</p>
-                <p><strong>Банковские реквизиты:</strong> р/с 40702810738000000001 в ПАО Сбербанк, к/с 30101810400000000225, БИК 044525225</p>
-              </div>
-            </div>
           </div>
         </div>
       </footer>
