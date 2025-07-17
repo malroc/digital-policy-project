@@ -32,7 +32,7 @@ export default function Index() {
                 Контакты
               </a>
             </div>
-            <Button className="hidden md:flex">
+            <Button className="hidden md:flex" onClick={() => document.getElementById('contacts')?.scrollIntoView({ behavior: 'smooth' })}>
               <Icon name="Mail" className="h-4 w-4 mr-2" />
               Связаться
             </Button>
