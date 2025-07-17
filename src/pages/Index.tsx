@@ -322,7 +322,7 @@ export default function Index() {
               <span className="font-semibold">АО Цифровая Полития</span>
             </div>
             <div className="text-sm text-muted-foreground text-right">
-              <p>© 2025 Цифровая Полития. Все права защищены.</p>
+              <p>© 2025 АО "Цифровая Полития". Все права защищены.</p>
               <p>ИНН: 5260499084</p>
               <p>603000, Нижегородская область, г. Нижний Новгород, Малая Покровская ул, д. 18, офис 313</p>
             </div>
