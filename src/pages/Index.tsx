@@ -167,7 +167,7 @@ export default function Index() {
                 <div className="w-12 h-12 mb-4 bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg flex items-center justify-center">
                   <Icon name="Settings" className="h-6 w-6 text-white" />
                 </div>
-                <CardTitle className="text-xl">Аутсорсинг</CardTitle>
+                <CardTitle className="text-xl">Доработка существующих проектов</CardTitle>
                 <CardDescription>Доработка существующих проектов</CardDescription>
               </CardHeader>
               <CardContent>
