@@ -214,7 +214,7 @@ export default function Index() {
                   <Badge variant="outline">React</Badge>
                   <Badge variant="outline">PostgreSQL</Badge>
                 </div>
-                <Button variant="outline" className="w-full group-hover:bg-primary group-hover:text-primary-foreground">
+                <Button variant="outline" className="w-full group-hover:bg-primary group-hover:text-primary-foreground" onClick={() => window.open('https://gapi.ru', '_blank')}>
                   <Icon name="ExternalLink" className="h-4 w-4 mr-2" />
                   Посетить сайт
                 </Button>
